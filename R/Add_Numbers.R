@@ -1,7 +1,7 @@
 #' Add two numbers together
 #'
-#' @param a
-#' @param b
+#' @param a number
+#' @param b number
 #'
 #' @return
 #' @export

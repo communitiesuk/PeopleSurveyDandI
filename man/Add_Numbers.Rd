@@ -7,7 +7,9 @@
 Add_Numbers(a, b)
 }
 \arguments{
-\item{b}{}
+\item{a}{number}
+
+\item{b}{number}
 }
 \description{
 Add two numbers together
