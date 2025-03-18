@@ -6,6 +6,8 @@ test_that("summarize by group works", {
   #run summarize by group
   result<-summarize_by_group(MHCLGflat, J01A, "Gender")
   expect_equal(result[[2,"Char"]], "Female")
+  expect_equal(result[[1,"Char"]], "Male")
+  expect_equal(result[[1,"ees_count"]], 1467)
 })
 
 
